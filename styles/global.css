@@ -29,6 +29,13 @@ html, button{
   font: 500 1rem/1.5 var(--ff-base);
 }
 
+
+& img[src*="stars-1"]{
+  max-width: 5.5rem;
+  top: 30%;
+  z-index: 0;
+ }
+
 h1, h2{
   font-family: 'Syne', sans-serif;
 }
