@@ -113,3 +113,15 @@ section.gallery{
   }
 
 }
+
+@media (width <= 80em){
+  section.gallery{
+    & .content{
+      grid-template-areas: 
+      "A"
+      "B"
+      "C"
+      "D";
+    }
+  }
+}

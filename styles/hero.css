@@ -141,6 +141,18 @@ section.hero{
 
 }
 
+@media ( width <= 80em){
+  section.hero{
+    max-width: 100vw;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+  }
+
+  .buttons{
+    flex-direction: column-reverse;
+  }
+}
+
 @keyframes slideIn{
   50%{
     transform: translateX(-20px);
